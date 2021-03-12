@@ -1,0 +1,16 @@
+*scrap.txt*	Simple page link resolver
+
+Author: kuuote
+License: MIT
+
+==============================================================================
+CONTENTS						*scrap-contents*
+
+INTRODUCTION				|scrap-introduction|
+
+*scrap* is a plugin that provides simple page link sytem and notation.
+
+==============================================================================
+INTRODUCTION						*scrap-introduction*
+
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
