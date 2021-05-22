@@ -1,9 +1,9 @@
-import { start } from "https://deno.land/x/denops_std@v0.2/mod.ts";
+import { ensureString, main } from "https://deno.land/x/denops_std@v0.10/mod.ts";
 import { getOrCreateProject } from "./scrap.ts";
 import { byteIndexToChar, getLink } from "./util.ts";
 
 // Start plugin event-loop
-start(async (vim) => {
+main(async ({vim}) => {
   // Register dispatcher
   vim.register({
     async jump(line: unknown, col: unknown): Promise<void> {
